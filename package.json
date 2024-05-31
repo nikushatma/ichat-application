@@ -1,0 +1,20 @@
+{
+  "name": "chat_app",
+  "version": "1.0.0",
+  "description": "This node server for our ichat",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "naveen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
+}
